@@ -1,0 +1,1 @@
+{"0":{"start":"12:00 PM","end":"6:00 PM","date":"1/2/2017","daynight":"Day"}}

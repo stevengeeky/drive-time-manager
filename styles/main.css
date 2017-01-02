@@ -1,0 +1,83 @@
+.wrapper {
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background:linear-gradient(45deg, white, lightgray);
+    font:20px Open Sans;
+    overflow:auto;
+}
+
+.header {
+    font-family:Roboto;
+    font-weight:100;
+    font-size:50px;
+    background:rgba(100, 100, 255, .2);
+    border-bottom:rgba(50, 50, 255, .2);
+    padding:10px;
+}
+.header div {
+    margin:10px;
+}
+.centered {
+    text-align:center;
+}
+
+.container {
+    margin-top:20px;
+    margin-left:10%;
+    margin-right:10%;
+    padding:10px;
+    background:white;
+    border:1px solid lightgray;
+}
+
+input, button, select {
+    margin:5px;
+    padding:4px;
+    font:18px Open Sans;
+}
+input {
+    width:100px;
+    text-align:center;
+    color:black;
+    border:1px solid black;
+    transition:box-shadow .5s;
+}
+input:focus {
+    box-shadow:0 5px 5px rgba(50, 50, 50, .2);
+}
+
+button#add_time {
+    border:2px solid #33f;
+    background:none;
+    transition:background .5s, border-radius .5s, color .5s;
+}
+button#add_time:hover {
+    background:#33f;
+    border-radius:10px;
+    color:white;
+}
+
+button#remove_time {
+    border:2px solid #f33;
+    background:none;
+    transition:background .5s, border-radius .5s, color .5s;
+}
+button#remove_time:hover {
+    background:#f33;
+    border-radius:10px;
+    color:white;
+}
+
+.hours {
+    color:#00f;
+}
+
+.dayhours {
+    color:#d83;
+}
+.nighthours {
+    color:#090;
+}
